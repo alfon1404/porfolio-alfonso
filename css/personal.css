@@ -22,6 +22,7 @@ a {
   background: #ffffff;
   text-align: center;
   padding: 0 2em;
+  font-family: Century Gothic;
 }
 .et-hero-tabs h1,
 .et-slide h1 {
@@ -483,12 +484,19 @@ td {
 }
 
 .titulos1 h6 {
-  font-size: 50px;
+  font-size: 3rem;
+  letter-spacing: 0.1rem;
   font-weight: 100;
   color: rgb(0, 0, 0);
   font-family: 'Playfair Display', serif;
 }
 
+.name-footer  {
+  font-size: 40px !important;
+  letter-spacing: 0.5rem !important;
+  font-family: Century Gothic !important;
+  padding-bottom: 20px !important;
+}
 .navbar-brand .dis p {
   font-size: 5px;
   width: 5px;
@@ -546,11 +554,12 @@ td {
 }
 
 .intro h6 {
-  font-size: 50px;
   color: #000000;
   font-weight: 100;
+  font-size: 3rem;
   text-transform: uppercase;
   font-family: 'Playfair Display', serif;
+  letter-spacing: 0.1rem;
 }
 
 .intro h1 {
@@ -592,6 +601,8 @@ td {
 }
 
 .service p {
+  text-align: justify;
+  font-family: Century Gothic;
   font-size: 18px;
   color: #6c6c6c;
 }
@@ -668,6 +679,7 @@ td {
   margin-bottom: 14px;
   color: #a09372;
   font-size: 22px;
+  font-family: Century Gothic;
 }
 
 .service img {
@@ -980,4 +992,23 @@ input.form-control {
 
 #tab-portfolio .splide__arrow svg {
   fill: #000;
+}
+
+.btn, .btn-primary {
+  background-color: #000000 !important;
+  color: #ffffff!important;
+  border-radius: 0px!important;
+  border-color: #000!important;
+}
+.btn-primary:hover {
+  color: white !important;
+}
+
+.card-body {
+  background-color: #b8af99;
+  box-shadow: 5px 5px 10px rgb(137, 137, 137);
+
+}
+.card-title {
+  font-size: 28px;
 }
