@@ -184,7 +184,7 @@ h6,
 .display-4 {
   font-weight: 300;
   font-size: 40px;
-  color: var(--dark);
+  color: black;
 }
 
 h3 {
@@ -604,7 +604,7 @@ td {
   text-align: justify;
   font-family: Century Gothic;
   font-size: 18px;
-  color: #6c6c6c;
+  color: #000000;
 }
 
 .serv {
@@ -997,18 +997,30 @@ input.form-control {
 .btn, .btn-primary {
   background-color: #000000 !important;
   color: #ffffff!important;
-  border-radius: 0px!important;
-  border-color: #000!important;
+  border: 0px!important;
 }
 .btn-primary:hover {
-  color: white !important;
+  color: #000000!important;
+  background-color: #b8af99 !important;
+  transition: all 0.5s ease !important;
 }
 
 .card-body {
-  background-color: #b8af99;
-  box-shadow: 5px 5px 10px rgb(137, 137, 137);
-
+  background-color: #f9f9f9;
+  border-radius: 15px;
 }
 .card-title {
   font-size: 28px;
+}
+
+.card {
+  border-radius: 15px;
+  border: 0px !important;
+  border-color: white;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.modal-title {
+  font-family: Century Gothic;
 }
